@@ -137,7 +137,7 @@ hold on; grid on
 xlabel('x'); ylabel('c_p')
 
 % compute velocity field outside the wedge
-Nx = 100; Ny = 100; % number of discretisation points
+Nx = 300; Ny = 300; % number of discretisation points
 
 x = linspace (-4, +4, Nx);
 y = linspace (-1.5, +1.5, Ny);
