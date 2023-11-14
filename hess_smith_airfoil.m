@@ -198,8 +198,8 @@ function [vel_s, vel_v] = SourceVortex (xc, yc, xe, ye, xe1, ye1, l, t)
     % vel_s = Q*[u v]';
 
     vel_s = [
-        t(1)*u - t(2)*v
-        t(2)*u + t(1)*v
+        (t(1)*u - t(2)*v)
+        (t(2)*u + t(1)*v)
     ];
 
     % vortex induced velocity
